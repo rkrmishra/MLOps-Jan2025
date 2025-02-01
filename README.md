@@ -87,6 +87,8 @@
   (END)
   ```
 - Here is the screenshot
+  ![Before merge cmd](Before-merge-cmd.png)
+  ![Befoe merge](Before-merge.png)
 
 ### Step 7: Merge the files from different branches
 - Merge from `G24AIT042+1` to `main`
@@ -99,6 +101,9 @@
   MLOps-Jan2025 git:(main)
   ```
 - Here is the screenshot
+  ![Merge without conflict](Merge-without-conflict.png)
+  ![Merge conflict](Merge-conflict.png)
+  
 - Merge from `G24AIT042-1` to `main`
   ```
   MLOps-Jan2025 git:(main) git merge G24AIT042-1
@@ -130,6 +135,8 @@
   (END)
   ```
 - Here is the screenshot
+  ![After merge cmd](After-merge-cmd.png)
+  ![After merge](After-merge.png)
 
 ### Step 9: Push all the changes
 - Let's push all the changes to the origin
@@ -210,6 +217,10 @@
     * [new tag]         ver1.0 -> ver1.
   MLOps-Jan2025 git:(main)
   ```
+- Screenshot for TAG
+  ![TAG locally cmd](TAG-locally-cmd.png)
+  ![TAG locally](TAG-locally.png)
+  ![TAG push to origin](TAG-push-to-origin.png)
 
 ## Challenges faced
 - Got merge conflict,
