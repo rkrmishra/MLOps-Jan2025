@@ -231,3 +231,14 @@
   - Generated token (classic) from Github and used it in origin url
 - Tag push to origin was not happening,
   - So used explicitly ver1.0 to push tag.
+ 
+## README.md to PDF Conversion
+- I used the `pandoc` command from my MacOS for the report generation.
+  - `pandoc` depends on a package called `basictex`. So let's install that
+    ```
+    brew install basictex
+    ```
+  - Now we will convert README.md (mark down format) into PDF
+    ```
+    pandoc README.md -o README.pdf --from=markdown -V geometry:margin=1in --toc --highlight-style=pygments
+    ```
